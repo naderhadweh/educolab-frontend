@@ -1,0 +1,211 @@
+/* Estilos generales de la landing page */
+.landing-page {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.login-box h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 100%;
+  flex-direction: column;
+  align-items: left; /* Centra horizontalmente */
+}
+
+.login-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.button, .bts {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #0056b3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.line {
+  align-items: center;
+  border-bottom:1.5px solid #dadde1;
+  display: flex;
+  margin: 20px 0px;
+  text-align: center;
+}
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+
+.login-form input {
+  width: 95%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+
+.bts {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 0; /* Elimina el margen inferior */
+  box-sizing: border-box;
+  background-color: #00b315;
+  color: #ffffff; /* Color del texto del botón */
+}
+
+
+.button:hover {
+  background-color: #003b7b; /* Cambia el color de fondo en el hover */
+}
+
+.bts:hover {
+  background-color: #00760e; /* Cambia el color de fondo en el hover */
+}
+
+
+.landing-page header img {
+  width: 130px;
+}
+
+/* Estilos del área principal (hero) */
+
+.landing-page #hero {
+  text-align: center;
+  margin-top: 0px;
+  background-image: url('../fotos/gente1.jpg'); /* Agrega la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  background-repeat: no-repeat;
+  background-position: center center; /* Centra la imagen de fondo */
+  padding: 150px;
+  color: #fff; /* Color del texto */
+  position: relative; /* Permite posicionar elementos secundarios */
+  z-index: 1; /* Asegura que el contenido esté encima del fondo */
+}
+
+.landing-page #hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.landing-page #hero p {
+  font-size: 20px;
+  color: #ccc; /* Color de texto más claro */
+  margin-bottom: 40px;
+}
+
+.landing-page #hero img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f1f1f1; /* Cambiado a un fondo oscuro */
+  color: #aaaaaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.landing-page #hero-content {
+  position: relative; /* Permite posicionar elementos secundarios */
+  z-index: 2; /* Asegura que el contenido esté encima del fondo */
+}
+
+
+.hero-title {
+  font-size: 36px; /* Tamaño de fuente */
+  color: #dfdfdf; /* Color del texto */
+  cursor: pointer; /* Cambia el cursor al puntero cuando pasa sobre el texto */
+  display: inline-block;
+  position: relative;
+  background-color: rgba(24, 24, 24, 0.7); /* Color de fondo con opacidad */
+  border-radius: 10000px; /* Agregar esquinas curvas */
+  padding: 10px 20px; /* Ajustar el espaciado interior */
+}
+
+/* Animación de letra por letra */
+.hero-title span {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px); /* Ajusta la altura de la ola */
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(10px); /* Ajusta la altura de la ola */
+  }
+}
+
+.hero-title:not(.hovered) span {
+  animation: none; /* Detiene la animación cuando no se está haciendo hover */
+}
+
+/* Estilos para mensajes de éxito */
+.success-message {
+  color: #3c763d; /* Un verde oscuro para el texto que denota éxito */
+  background-color: #dff0d8; /* Un verde claro para el fondo */
+  border-color: #d6e9c6;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+  color: #a94442; /* Un rojo oscuro para el texto que indica error */
+  background-color: #f2dede; /* Un rojo claro para el fondo */
+  border-color: #ebccd1;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center; /* Asegura que el texto esté centrado */
+}

@@ -1,0 +1,61 @@
+/* Agrega estilos para los botones */
+.button-container button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.button-container button:hover {
+  opacity: 0.8;
+}
+
+/* Estilos específicos para cada tipo de botón */
+.solicitar-button {
+  background-color: #0cbb00;
+  color: #ffffff;
+}
+
+.solicitar-button:hover {
+  background-color: #025104;
+}
+
+.ver-button {
+  background-color: #36c1d7;
+  color: #ffffff;
+}
+
+.ver-button:hover {
+  background-color: #072859;
+}
+
+.lleno-button {
+  background-color: #838881;
+  color: #ffffff;
+}
+
+.lleno-button:hover {
+  background-color: #838881;
+}
+
+.solicitado-button {
+  background-color: #c6c632;
+  color: #ffffff;
+}
+
+.solicitado-button:hover {
+  background-color: #c6c632;
+}
+
+button {
+  background-color: #44c9fd; 
+  color: #ffffff;
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

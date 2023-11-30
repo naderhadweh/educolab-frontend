@@ -1,0 +1,91 @@
+.instructions-page {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.instructions-page #hero {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  color: #2350b1;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instructions-page #hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.instructions-page #hero p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.instructions-page #hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.instructions-page footer {
+  background-color: #f1f1f1;
+  color: #989898;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.instructions-page header {
+  text-align: center;
+  background-color: #daf4ff;
+}
+
+.instructions-page header img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 3s ease-in-out;
+}
+
+.instructions-page main{
+  background-color: #daf4ff;
+}
+
+.instructions-page #hero .text-box {
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.instructions-page #hero .text-box h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.instructions-page #hero .text-box p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px;
+  text-align: left;
+}

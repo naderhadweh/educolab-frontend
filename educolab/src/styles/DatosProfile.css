@@ -1,0 +1,81 @@
+/* DatosProfile.css */
+
+.mis-datos {
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: auto;
+    max-width: auto; /* Cambié esto a 450px en lugar de 4500px */
+    margin: 0 auto;
+    margin-top: 100px; /* Reduje el margen superior para centrar mejor */
+  }
+  
+  .mis-datos h1 {
+    font-size: 1.5rem;
+    margin: 10px 0; /* Aumenté el margen superior e inferior para espacio */
+    color: #333;
+  }
+  
+  .perfil-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .foto-perfil {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .datos-personales {
+    text-align: left;
+  }
+  
+  .datos-personales h1 {
+    font-size: 1.2rem; /* Aumenté el tamaño de la fuente para destacar */
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .datos-personales p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #777; /* Cambié el color para hacerlo más suave */
+  }
+
+  .datos-personales button {
+    background-color: #44c9fd; 
+    color: #ffffff;
+    transition: background-color 0.3s ease; }
+  
+  .datos-personales button:hover {
+    background-color: #000851;
+  }
+  
+  button{
+    margin-bottom: 10px; /* Add margin between the buttons */
+  }
+
+  .edit-button {
+    background-color: #44c9fd; 
+    color: #ffffff;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #000851;
+  }
+  

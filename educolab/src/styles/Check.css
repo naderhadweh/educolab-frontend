@@ -1,0 +1,11 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto establece la altura del contenedor al 100% del viewport height */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em; /* Puedes ajustar este valor según tus preferencias */
+}

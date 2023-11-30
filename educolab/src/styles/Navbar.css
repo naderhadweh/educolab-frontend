@@ -1,0 +1,39 @@
+:root {
+  --navbar-background-color: #ffffff;
+  --navbar-text-color: #44c9fd;
+  --button-background-color: #ffffff;
+  --button-text-color: #797979;
+  --button-hover-background-color: #44c9fd;
+  --button-hover-text-color: #ffffff;
+  --button-padding: 10px;
+  --button-margin-left: 20px;
+}
+
+.hero-left {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; 
+}
+
+.logo {
+  width: 100px; 
+  height: auto;
+  margin-right: 20px; 
+}
+
+
+.boton-navbar {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #ffffff;;
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: var(--button-margin-left);
+}
+
+.boton-navbar:hover {
+  background-color: var(--button-hover-background-color);
+  color: var(--button-hover-text-color);
+}

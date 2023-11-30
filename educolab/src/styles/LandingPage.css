@@ -1,0 +1,120 @@
+/* General Styles */
+.landing-page {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  height: 50px; /* Adjust as needed */
+}
+
+/* Hero Section Styles */
+#hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease;
+}
+
+.hero-title.hovered {
+  transform: scale(1.05);
+}
+
+/* Call to Action Styles */
+.call-to-action {
+  padding: 2rem;
+  text-align: center;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Button Styles */
+.button {
+  margin: 1rem 0;
+}
+
+.button button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .call-to-action h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Animations and Keyframes */
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hero-title:not(.hovered) span {
+  display: inline-block;
+  animation: wave 1s ease-in-out infinite;
+}

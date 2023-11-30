@@ -1,0 +1,77 @@
+.groupsview-main {
+    margin-top: 50px; 
+  }
+  
+  .groupsview {
+      padding: 20px;
+      font-family: sans-serif;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    tr:hover {
+      background-color: #ddd;
+    }
+    
+    .aceptar-button {
+      background-color: #16bb00; 
+      color: #ffffff;
+      margin: 5px;
+    }
+  
+    .aceptar-button:hover{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      background-color: #025104; 
+      color: #ffffff; 
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    .rechazar-button {
+      background-color: #ff2323; 
+      color: #ffffff;
+      margin: 5px;
+    }
+  
+    .rechazar-button:hover{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      background-color: rgb(89, 7, 7); 
+      color: #ffffff; 
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
